@@ -1,0 +1,5 @@
+services:
+app:
+image: blackjack-cli
+build: .
+command: ["node", "dist/index.js"]

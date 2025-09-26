@@ -1,0 +1,14 @@
+:root{
+    --felt:#0e6b3a;
+    --felt-deep:#0a4f2a;
+    --felt-light:#1d8a52;
+    --shadow: 0 0.625rem 1.5625rem rgba(0,0,0,.35);
+  }
+  
+  *{box-sizing:border-box}
+  html,body,#root{height:100%;width:100%}
+  body{
+    margin:0;
+    background:radial-gradient(ellipse at top, var(--felt-light), var(--felt));
+  }
+  

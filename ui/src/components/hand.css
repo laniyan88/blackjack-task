@@ -1,0 +1,12 @@
+.hand-row{
+    background:rgba(0,0,0,.18); border:0.0625rem solid rgba(255,255,255,.12);
+    border-radius:1rem; padding:1rem; margin-bottom:1rem; box-shadow:var(--shadow);
+  }
+  .hand-row h2{margin:0 0 0.625rem 0}
+  .cards{display:flex; flex-wrap:wrap; gap:0.625rem; justify-content: center}
+  
+  .line{
+    display:block; margin-top:0.625rem; background:rgba(0,0,0,.25);
+    padding:0.5rem 0.625rem; border-radius:0.625rem; color:#d2ffe6;
+  }
+  

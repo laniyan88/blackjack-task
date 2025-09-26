@@ -1,0 +1,49 @@
+{
+  "name": "blackjack-cli",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "engines": { "node": ">=18" },
+
+  "main": "dist/index.js",
+  "bin": {
+    "blackjack": "dist/index.js",
+    "bj": "dist/index.js"
+  },
+
+  "scripts": {
+    "build": "rimraf dist && tsc -p .",
+
+    "start": "npm run build && node dist/index.js",
+    "play": "node dist/index.js",
+    "play:url": "node dist/index.js https://sandbox.getunleash.io/blackjack/shuffle",
+    "play:manual": "node dist/index.js --manual",
+
+    "dev": "tsx src/index.ts",
+    "dev:url": "tsx src/index.ts https://sandbox.getunleash.io/blackjack/shuffle",
+    "dev:manual": "tsx src/index.ts --manual",
+
+    "link": "npm run build && npm link",
+    "docker:build": "docker build -t blackjack . && docker run --rm -it blackjack",
+    "docker:run": "docker run --rm -it blackjack",
+
+    "dev:ui": "npm --prefix ui run dev",
+    "build:ui": "npm --prefix ui run build",
+
+    "test:cli": "vitest run --config vitest.cli.config.ts",
+    "test:cli:watch": "vitest --config vitest.cli.config.ts",
+    "test:ui": "npm --prefix ui run test",
+    "test:ui:watch": "npm --prefix ui run test:watch",
+    "test": "npm run test:cli && npm run test:ui"
+  },
+
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4",
+    "tsx": "^4.16.0",
+    "rimraf": "^6.0.0"
+  }
+}

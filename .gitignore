@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Builds
+dist/
+build/
+ui/dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tests & coverage (Vitest)
+coverage/
+coverage-*/
+ui/coverage/
+.vitest/
+ui/.vitest/
+
+# Vite / caches
+.vite/
+ui/.vite/
+.eslintcache
+
+# Env & local config
+.env
+.env.*
+!.env.example
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker 
+*.local.yml
+docker-compose.override.yml

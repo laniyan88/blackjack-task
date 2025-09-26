@@ -1,0 +1,30 @@
+.header {}
+
+.controls-row {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.controls-row.top {
+  grid-template-columns: auto 1fr auto;
+  margin-top: 0.4rem;
+}
+
+.controls-row.top {
+  grid-template-columns: auto 1fr auto;
+  gap: 0.8rem;
+  margin-top: 0.6rem;
+}
+
+@media (max-width: 50rem) {
+  .controls-row {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+  .actions { justify-self: start; }
+}
+
+.grow { flex: 1; }
+

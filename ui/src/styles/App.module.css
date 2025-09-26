@@ -1,0 +1,57 @@
+.table{
+    min-height:100%;
+    display:flex;
+    flex-direction:column;
+    background:
+      radial-gradient(circle at 30% 20%, rgba(255,255,255,.05), transparent 30%),
+      radial-gradient(circle at 70% 80%, rgba(0,0,0,.25), transparent 40%),
+      repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,.025), rgba(255,255,255,0) 0.9375rem);
+  }
+  
+.bar{
+    display:flex;
+    flex-direction:column;
+    gap:0.75rem;
+    padding:1rem 1.25rem;
+    background:linear-gradient(0deg, var(--felt-deep), var(--felt));
+    border-bottom:0.0625rem solid rgba(255,255,255,.08);
+    box-shadow:var(--shadow);
+    color:#fff;
+}
+
+.title{
+    margin:0;
+    font-weight:700;
+    letter-spacing:0.03125rem;
+}
+
+.stage{
+    flex:1;
+    padding:1.625rem;
+    color:#f7fff9;
+    max-width:68.75rem;
+    margin:0 auto;
+}
+
+.hint{
+    opacity:.9;
+    background:rgba(0,0,0,.15);
+    padding:0.75rem 0.875rem;
+    border-radius:0.625rem;
+    display:inline-block;
+}
+
+.cliMirror{
+    margin-top:1.125rem;
+    opacity:.85;
+    font-size:0.875rem;
+    background:rgba(0,0,0,.18);
+    padding:0.75rem;
+    border-radius:0.75rem;
+    border:0.0625rem solid rgba(255,255,255,.12);
+}
+
+.toast.error{
+    margin:0.75rem 0; padding:0.625rem 0.75rem; border-radius:0.625rem;
+    background:#ffdad6; color:#5a1212; box-shadow:0 0.25rem 0.75rem rgba(0,0,0,.2);
+}
