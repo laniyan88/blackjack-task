@@ -1,4 +1,4 @@
-# Blackjack CLI (Node.js + TypeScript + Docker)
+# Blackjack CLI (Node.js + TypeScript + Vitest)
 
 A CLI that plays one round of Blackjack per the brief: you vs Dealer, with automatic rules (player draws to 17+, dealer draws until higher than player or bust). It fetches the deck from a URL (or a default), prints the result in the exact format, and includes tests.
 
