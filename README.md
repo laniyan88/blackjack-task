@@ -30,7 +30,7 @@ Mode = automatic unless --manual is passed
 ## Test
 npm test
 
-## Rules (from the brief)
+## Rules 
 
 Two players: You and the Dealer
 
