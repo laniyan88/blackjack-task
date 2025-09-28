@@ -1,9 +1,10 @@
 # Blackjack CLI (Node.js + TypeScript + Docker)
 
-A command-line Blackjack app that plays a single round exactly as specified—you vs. Dealer. It auto-plays by the rules (player draws to 17+, dealer draws until strictly higher or bust), fetches a deck from a URL (or a default), prints the result in the required format, and includes tests. An optional UI is also available.
+A command-line Blackjack app that plays a single round exactly as specified, you vs. Dealer. It auto-plays by the rules (player draws to 17+, dealer draws until strictly higher or bust), fetches a deck from a URL (or a default), prints the result in the required format, and includes tests. An optional UI is also available.
 
 ## Requirements
 Node.js 22.x (recommended).
+
 OS- Windows 10/11, macOS 12+, or Linux.
 
 ## Install
