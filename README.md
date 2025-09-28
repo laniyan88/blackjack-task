@@ -8,7 +8,9 @@ OS- Windows 10/11, macOS 12+, or Linux.
 
 ## Install
 git clone https://github.com/laniyan88/blackjack-task.git
+
 cd blackjack-task
+
 npm i 
 
 ## Development
